@@ -1,0 +1,182 @@
+.Game{
+    background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 5vmin);
+  color: rgb(245, 240, 240);
+}
+
+.Container
+{
+  background-color: #282c34;
+  min-height: 81.7vh;
+  padding-left: 350px;
+  align-items: center;
+  
+   /*
+  padding-right: 15px;
+  margin-right: auto;
+  */
+  margin-left: auto;
+}
+.hometable{
+  border: 3px solid #202731;
+}
+.cardSudoku{
+  margin-left: 50px;
+  background-color: #202731;
+}
+.gap{
+  margin-left: 5rem;
+}
+
+.TicClass
+{
+  background-color: #202731;
+  min-height: 100vh;
+  align-items: center;
+  color: white;
+  padding-right: 15px;
+  padding-left: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* 282c34; 272e37; 202731*/
+.homeButton{
+  background-color: #202731;
+  padding-left: 100px;
+  padding-top: 50px;
+  position: absolute;
+  cursor: pointer;
+  
+}
+.turn{
+  position: absolute;
+  color: #efe51d;
+  padding-left: 10px;
+  margin-top:20px
+}
+.backSymbol{
+  width: 50px;
+  height: 50px;
+}
+.sudokuClass
+{
+  background-color: #202731;
+  min-height: 100vh;
+  align-items: center;
+  color: white;
+  padding-right: 15px;
+  padding-left: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1{
+  padding-left: 170px;
+}
+
+.Buttonsize
+{
+    font-size: 50px;
+    width: 170px;
+    height: 135px;
+    background-color:#202731;
+}
+.blue{
+  color: rgb(68, 68, 241);
+}
+.pink{
+  color: rgb(239, 57, 117);
+}
+.textSize{
+  width: 50px;
+    min-height: 50px;
+    background-color:rgb(246, 242, 244);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 25px;
+}
+.disableColor{
+  width: 50px;
+    min-height: 50px;
+    background-color:rgb(75, 150, 108);
+    text-align: center;
+    border: 1px solid rgb(33, 32, 32);
+    color:white;
+    font-size: 25px;
+}
+
+table{
+  border-collapse: collapse;
+  border: 3px solid bisque;
+  background-color: #202731;
+}
+.tictable{
+  /* border-collapse: collapse; */
+  border: 2px solid  #060606;
+  /* background-color: #202731; */
+
+}
+
+td{
+  padding: 0;
+}
+
+.buttonContainer{
+  margin-top:20px;
+  align-items: center;
+  padding-left: 50px;
+}
+.buttonContainerr{
+  margin-top:20px;
+  align-items: center;
+  padding-left: 400px;
+}
+
+.solveSize{
+  background-color: rgb(212, 111, 29);
+  border:none;
+  padding: 5px 25px  ;
+  border-radius:20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.checkSize{
+  background-color: rgb(240, 63, 96);
+  border:none;
+  padding: 5px 25px  ;
+  border-radius:20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.resetSize{
+  background-color: rgb(91, 191, 238);
+  border:none;
+  padding: 5px 25px  ;
+  border-radius:20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.drkrBorder{
+  border-bottom: 2px solid black ;
+}
+
+.drkcBorder{
+  border-right: 2px solid black ;
+}
+
+.whiteticbrd{
+  border-bottom: 2px solid rgb(242, 237, 237) ;
+  border-top: 2px solid rgb(242, 237, 237) ;
+}
+.whiteticcbrd{
+  border-right: 2px solid rgb(242, 237, 237) ;
+  border-left: 2px solid #f4f0ee; ;
+}
